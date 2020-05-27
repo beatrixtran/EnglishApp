@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+
+    <!--<Button-->
+    <!--android:id="@+id/goToLearning"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginStart="11dp"-->
+    <!--android:layout_marginLeft="11dp"-->
+    <!--android:layout_marginTop="372dp"-->
+    <!--android:text="Learning" />-->
+
+    <ImageButton
+        android:id="@+id/goToLearning"
+        android:layout_width="109dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="237dp"
+        android:onClick="clickToPlay"
+        android:src="@drawable/play_button" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="319dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="119dp"
+        android:src="@drawable/ribbon2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="63dp"
+        android:text="ENGLISH"
+        android:textAlignment="center"
+        android:textColor="#FCF3EFEF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="146dp"
+        android:text="TIME"
+        android:textAlignment="center"
+        android:textColor="#EDF0ECEC"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/quizyap1"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/borderlayout"
+        android:onClick="clickToGo2"
+        android:text="Look And Choose"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quizyap"
+        android:layout_width="158dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="129dp"
+        android:background="@drawable/borderlayout2"
+        android:onClick="clickToQuiz"
+        android:text="PRACTICE"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/quitbutton"
+        android:text="Quit" />
+
+</RelativeLayout>

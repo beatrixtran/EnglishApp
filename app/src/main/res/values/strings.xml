@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EnglishApp</string>
+    <string name="str_start_now">Bắt Đầu</string>
+    <string name="str_next">Next</string>
+    <string name="str_done">Done</string>
+    <string name="str_results">Result</string>
+    <string name="str_gotohome">Home</string>
+    <string name="str_viewans">View Answer</string>
+    <string name="action_settings">Quiz</string>
+    <string name="speech_prompt">Say something…</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+</resources>

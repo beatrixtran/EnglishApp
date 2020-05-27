@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirplaneActivity"
+    android:background="@drawable/cloud_5"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/airplane1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="408dp"
+        android:layout_height="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="156dp"
+        android:text="AIRPLANE"
+        android:textAlignment="center"
+        android:textColor="#131212"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <ImageButton
+        android:id="@+id/nextToAirplaneGif"
+        android:layout_width="72dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/nextbtn"
+
+        />
+
+    <ImageButton
+        android:id="@+id/Voice"
+        android:layout_width="79dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginBottom="121dp"
+        android:background="@drawable/listening" />
+
+</RelativeLayout>

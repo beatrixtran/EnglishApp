@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizMainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/cutebackgrounds6"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        >
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Dificult Level"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:textColor="#405d27"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="6dp"
+        android:background="@drawable/shapebutton2"
+        />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:textColor="#b20013"
+            android:background="@drawable/quitbutton"
+            android:drawableLeft="@drawable/quit"
+            android:drawablePadding="-4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="310dp"
+            />
+
+
+    </RelativeLayout>
+
+    <!--<ImageView
+        android:id="@+id/questionImage"
+        android:layout_width="298dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+
+        android:src="@drawable/dog" />-->
+
+    <Button
+        android:id="@+id/btnLv1"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borderlayout2"
+        android:onClick="clickToLv1"
+        android:text="Level 1"
+        android:layout_marginBottom="70dp"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:textSize="27sp"
+        android:text="Level 2"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/borderlayout2"
+        android:onClick="clickToLv2"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:textSize="27sp"
+        android:text="Level 3"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/borderlayout2"
+        android:onClick="clickToLv3"/>
+
+
+
+</LinearLayout>

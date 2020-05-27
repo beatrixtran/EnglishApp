@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.englishapp">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuizLevel3Activity"></activity>
+        <activity android:name=".QuizLevel2Activity" />
+        <activity android:name=".QuizLevel1Activity" />
+        <activity android:name=".Airplane_Gif_Activity" />
+        <activity android:name=".AirplaneActivity" />
+        <activity android:name=".Car_Gif_Activity" />
+        <activity android:name=".CarActivity" />
+        <activity android:name=".Giraffe_Gif_Activity" />
+        <activity android:name=".GiraffeActivity" />
+        <activity android:name=".Pig_Gif_Activity" />
+        <activity android:name=".PigActivity" />
+        <activity android:name=".Frog_Gif_Activity" />
+        <activity android:name=".FrogActivity" />
+        <activity android:name=".Goat_Gif_Activity" />
+        <activity android:name=".GoatActivity" />
+        <activity android:name=".Crab_Gif_Activity" />
+        <activity android:name=".CrabActivity" />
+        <activity android:name=".Hippo_Gif_Activity" />
+        <activity android:name=".HippoActivity" />
+        <activity android:name=".Fish_Gif_Activity" />
+        <activity android:name=".FishActivity" />
+        <activity android:name=".Tiger_Gif_Activity" />
+        <activity android:name=".TigerActivity" />
+        <activity android:name=".Bear_Gif_Activity" />
+        <activity android:name=".BearActivity" />
+        <activity android:name=".Dog_Gif_Activity" />
+        <activity android:name=".LearningActivity" />
+        <activity android:name=".DogActivity" />
+        <activity android:name=".Cat_Gif_Activity" />
+        <activity android:name=".CatActivity" />
+        <activity android:name=".GameActivity" />
+        <activity
+            android:name=".QuizMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/mybutton" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

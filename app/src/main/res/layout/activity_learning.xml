@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearningActivity"
+    android:background="@drawable/wood"
+    >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/ribbon" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="LESSONS"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/animalButton"
+        android:layout_width="303dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/animal_title_5" />
+
+    <ImageButton
+        android:id="@+id/tranportsButton"
+        android:layout_width="310dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="124dp"
+        android:src="@drawable/tranports_title_3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:text="Animal"
+        android:textAlignment="center"
+        android:textColor="#F81168C7"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="221dp"
+        android:text="Tranports"
+        android:textAlignment="center"
+        android:textColor="#F0DB1414"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="65dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/home_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="45dp"
+        android:src="@drawable/pin1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/pin2" />
+
+
+</RelativeLayout>

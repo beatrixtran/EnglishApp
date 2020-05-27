@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".GameActivity"
+    android:background="@drawable/cloud_5"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSubmit"
+        >
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:layout_height="200dp" />
+
+        <GridView
+            android:id="@+id/gridViewAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:columnWidth="40dp"
+            android:horizontalSpacing="4dp"
+            android:numColumns="auto_fit"
+            android:padding="4dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dp" />
+
+        <GridView
+            android:id="@+id/gridViewSuggest"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:horizontalSpacing="4dp"
+            android:verticalSpacing="4dp"
+            android:columnWidth="40dp"
+            android:numColumns="auto_fit"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:id="@+id/txvResult"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal"/>
+    />
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:onClick="getSpeechInput"
+        android:src="@drawable/ic_mic"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cuteimage4"
+        android:text="Submit"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        />
+
+
+</RelativeLayout>
